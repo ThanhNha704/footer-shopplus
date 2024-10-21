@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-text: "HK Grotesk";
+  --font-number: Poppins;
+  --text-color: #008ECC;
+  --backgroud-color: #008ECC;
+  --color-icon: brightness(0) saturate(100%) invert(58%) sepia(100%) saturate(4952%) hue-rotate(173deg) brightness(93%) contrast(101%);
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+footer {
+  width: 100vw;
+  height: 592px;
+  background-color: var(--backgroud-color);
+  color: #FFF;
+}
+
+.circle {
+  position: absolute;
+  top: -20%;
+  right: -10%;
+  width: 467px;
+  height: 467px;
+  border: 1px solid #05ABF3;
+  border-radius: 50%;
+  padding: 16.3px;
+  background-color: #0C9BDA;
+  background-clip: content-box;
+  z-index: 1;
+}
+.footer-column{
+  z-index: 10;
+}
+.footer-container {
+  padding: 80px 0 80px 123px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  max-width: 1400px;
+}
+
+footer .logo {
+  font-family: var(--font-number);
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.footer-column h3 {
+  font-family: var(--font-text);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.contact-us {
+  position: relative;
+  margin-top: 57px;
+}
+
+#icon-call,
+#icon-whats-app {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+}
+
+#icon-whats-app {
+  top: 40px;
+}
+
+.whats-app,
+.call-us {
+  font-family: var(--font-text);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 20px 0 21px 30px;
+}
+
+.phone {
+  font-family: var(--font-number);
+}
+
+.footer-column ul {
+  font-family: var(--font-text);
+  font-style: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 37px;
+  padding: 0 20px;
+  margin: 20px 0 0;
+}
+
+.download-app {
+  margin-top: 30px;
+}
+
+.icon-download {
+  margin-top: 20px;
+}
+
+.icon-download a img {
+  margin-right: 20px;
+  width: 167px;
+  height: 55px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  font-family: var(--font-text);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.footer-column hr {
+  border-width: 2px;
+  border-color: #FFF;
+  border-style: solid;
+  opacity: 0.5;
+  margin-top: 16px;
+}
+
+.line-bottom {
+  margin-bottom: 30px;
+  border-color: rgba(25, 163, 225, 0.8);
+}
